@@ -507,7 +507,7 @@ bot.onText(/\/start/, (msg) => {
         }
     };
 
-    bot.sendMessage(msg.chat.id, "Hallo " + msg.from.first_name + ", Selamat belanja di SalmonPay\nSilahkan pilih menu dibawah ini", options).catch(err => {
+    bot.sendMessage(msg.chat.id, "Hallo " + msg.from.first_name + ", Selamat belanja di Amang Store\nSilahkan pilih menu dibawah ini", options).catch(err => {
         console.error('Error sending message:', err);
     });
 });
